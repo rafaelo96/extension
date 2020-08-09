@@ -1,0 +1,28 @@
+{
+    "name": "light-colors-theme",
+    "publisher": "Rafael-Avalos",
+    "displayName": "Light Colors Theme",
+    "description": "Light colors theme is a colorful, eye - pleasing theme with cheerful and stylish colors ",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+
+    "keywords": [
+        "light",
+        "theme",
+        "colors"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [{
+            "label": "Light Colors Theme",
+            "uiTheme": "vs",
+            "path": "./themes/Light Colors Theme-color-theme.json"
+        }]
+    }
+
+}
